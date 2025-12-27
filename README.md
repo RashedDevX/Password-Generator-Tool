@@ -1,23 +1,25 @@
 # 🛡️ ProPass - Professional Password Generator
 
-**ProPass** holo ekta modern, responsive ebong secure password generation tool. Eta glassmorphism design-er upor base kore banano, ja user-der ekta premium experience dey.
+**ProPass** is a modern, responsive, and secure password generation tool. Built with a stunning **Glassmorphism** design, it provides a premium and seamless experience for users.
 
 ## 📸 Preview
-![ProPass Screenshot](https://github.com/RashedDevX/Password-Generator-Tool/blob/master/screenshot.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/RashedDevX/Password-Generator-Tool/master/screenshot.png" alt="ProPass Screenshot" width="600">
+</div>
 
 ## ✨ Features
-- **Customizable Length:** 6 theke 30 character-er password generate kora jay.
-- **Strength Meter:** Password koto-ta strong seta real-time-e check kora jay.
-- **One-Click Copy:** Direct clipboard-e copy korar suvidha.
-- **Smart Filtering:** "Exclude Similar" feature diye confusing characters (i, l, 1, 0, O) bad deya jay.
-- **Fully Responsive:** Mobile, tablet ebong desktop-er jonno optimized.
+- **Customizable Length:** Generate passwords ranging from 6 to 30 characters.
+- **Strength Meter:** Real-time password strength validation.
+- **One-Click Copy:** Easily copy generated passwords to the clipboard with visual feedback.
+- **Smart Filtering:** Includes an "Exclude Similar" feature to remove confusing characters (i, l, 1, 0, O).
+- **Fully Responsive:** Optimized for Mobile, Tablet, and Desktop screens.
 
 ## 🚀 Tech Stack
-- **HTML5:** Semantic structure-er jonno.
-- **CSS3:** Glassmorphism UI ebong custom animations-er jonno.
-- **JavaScript (Vanilla):** Password logic ebong strength validation-er jonno.
+- **HTML5:** For semantic structure.
+- **CSS3:** For Glassmorphism UI, custom animations, and responsiveness.
+- **JavaScript (Vanilla):** For password generation logic and strength validation.
 
 ## 🛠️ Installation
-1. Repository-ti clone koro:
+1. Clone the repository:
    ```bash
    git clone [https://github.com/RashedDevX/ProPass.git](https://github.com/RashedDevX/ProPass.git)
