@@ -3,8 +3,7 @@
 **ProPass** holo ekta modern, responsive ebong secure password generation tool. Eta glassmorphism design-er upor base kore banano, ja user-der ekta premium experience dey.
 
 ## 📸 Preview
-![ProPass Screenshot](https://github.com/RashedDevX/Password-Generator-Tool/blob/master/screenshot.png) 
-> *Tip: Tumar project er ekta screenshot niye `screenshot.png` name root folder-e upload koro.*
+![ProPass Screenshot](https://github.com/RashedDevX/Password-Generator-Tool/blob/master/screenshot.png)
 
 ## ✨ Features
 - **Customizable Length:** 6 theke 30 character-er password generate kora jay.
