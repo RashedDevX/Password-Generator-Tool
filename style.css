@@ -1,0 +1,129 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+h2 { text-align: center; margin-bottom: 1.5rem; letter-spacing: 1px; }
+
+.result-container {
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#password-display {
+    background: transparent; border: none; color: #00ffcc;
+    font-size: 1.2rem; width: 100%; outline: none;
+}
+
+#copy-btn {
+    background: transparent;
+    border: none;
+    color: #00ffcc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+#copy-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px #00ffcc);
+}
+
+#copy-btn svg {
+    pointer-events: none; /* Icon click jeno button-e pore */
+}
+
+#copy-btn:active { transform: scale(1.2); }
+
+/* Strength Meter */
+.strength-meter { margin-bottom: 20px; }
+#strength-bar {
+    height: 6px; width: 0%; border-radius: 3px;
+    transition: 0.3s; margin-top: 5px;
+}
+#strength-text { font-size: 0.8rem; opacity: 0.8; }
+
+.setting { margin-bottom: 15px; }
+input[type="range"] { width: 100%; cursor: pointer; }
+
+.checkbox-group {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+    margin-bottom: 20px;
+}
+
+#generate-btn {
+    width: 100%; padding: 12px; border-radius: 10px; border: none;
+    background: #00ffcc; color: #0f0c29; font-weight: bold;
+    font-size: 1rem; cursor: pointer; transition: 0.3s;
+}
+
+#generate-btn:hover { background: #00d4aa; box-shadow: 0 0 15px #00ffcc; }
+
+/* Toast Notification */
+.toast {
+    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+    background: #00ffcc; color: #0f0c29; padding: 10px 20px;
+    border-radius: 5px; font-weight: bold; display: none;
+    animation: fadeInUp 0.5s;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; bottom: 0; }
+    to { opacity: 1; bottom: 20px; }
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+        align-items: flex-start; /* Mobile-e scrollable rakhar jonno */
+        padding-top: 50px;
+    }
+
+    .glass-card {
+        width: 100%; /* Full width screen width onujayi */
+        max-width: 350px;
+        padding: 1.5rem;
+    }
+
+    .checkbox-group {
+        grid-template-columns: 1fr; /* Mobile-e checkbox gulo ekta niche arekta thakbe */
+        gap: 8px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #password-display {
+        font-size: 1rem; /* Choto screen-e text size adjust */
+    }
+}
